@@ -1,0 +1,1083 @@
+object Form3: TForm3
+  Left = 359
+  Top = 46
+  Width = 831
+  Height = 1036
+  Caption = #1047#1074#1110#1090' '#1063#1077#1082
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Scaled = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object QuickRep1: TQuickRep
+    Left = 8
+    Top = -8
+    Width = 794
+    Height = 1123
+    Frame.Color = clBlack
+    Frame.DrawTop = False
+    Frame.DrawBottom = False
+    Frame.DrawLeft = False
+    Frame.DrawRight = False
+    DataSet = DataModule2.qryReis
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = []
+    Functions.Strings = (
+      'PAGENUMBER'
+      'COLUMNNUMBER'
+      'REPORTTITLE')
+    Functions.DATA = (
+      '0'
+      '0'
+      #39#39)
+    Options = [FirstPageHeader, LastPageFooter]
+    Page.Columns = 1
+    Page.Orientation = poPortrait
+    Page.PaperSize = A4
+    Page.Values = (
+      100.000000000000000000
+      2970.000000000000000000
+      100.000000000000000000
+      2100.000000000000000000
+      100.000000000000000000
+      100.000000000000000000
+      0.000000000000000000)
+    PrinterSettings.Copies = 1
+    PrinterSettings.Duplex = False
+    PrinterSettings.FirstPage = 0
+    PrinterSettings.LastPage = 0
+    PrinterSettings.OutputBin = Auto
+    PrintIfEmpty = True
+    SnapToGrid = True
+    Units = MM
+    Zoom = 100
+    object TitleBand1: TQRBand
+      Left = 38
+      Top = 38
+      Width = 718
+      Height = 40
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      AlignToBottom = False
+      Color = clSkyBlue
+      ForceNewColumn = False
+      ForceNewPage = False
+      Size.Values = (
+        105.833333333333300000
+        1899.708333333333000000)
+      BandType = rbTitle
+      object QRLabel1: TQRLabel
+        Left = 328
+        Top = 8
+        Width = 51
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          867.833333333333500000
+          21.166666666666670000
+          134.937500000000000000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Caption = #1063#1077#1082' '#8470' '
+        Color = clWhite
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 11
+      end
+      object QRLabel2: TQRLabel
+        Left = 0
+        Top = 16
+        Width = 42
+        Height = 21
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          55.562500000000000000
+          0.000000000000000000
+          42.333333333333340000
+          111.125000000000000000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Caption = #1044#1072#1090#1072':'
+        Color = clWhite
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 11
+      end
+    end
+    object ColumnHeaderBand1: TQRBand
+      Left = 38
+      Top = 78
+      Width = 718
+      Height = 40
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      AlignToBottom = False
+      Color = clWhite
+      ForceNewColumn = False
+      ForceNewPage = False
+      Size.Values = (
+        105.833333333333300000
+        1899.708333333333000000)
+      BandType = rbColumnHeader
+      object QRLabel3: TQRLabel
+        Left = 0
+        Top = 8
+        Width = 25
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          0.000000000000000000
+          21.166666666666670000
+          66.145833333333340000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Caption = #1055#1030#1041
+        Color = clWhite
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 11
+      end
+      object QRLabel5: TQRLabel
+        Left = 112
+        Top = 8
+        Width = 44
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          296.333333333333400000
+          21.166666666666670000
+          116.416666666666700000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Caption = #1053#1072#1079#1074#1072
+        Color = clWhite
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 11
+      end
+      object QRLabel6: TQRLabel
+        Left = 240
+        Top = 8
+        Width = 73
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          635.000000000000000000
+          21.166666666666670000
+          193.145833333333300000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Caption = #1058#1080#1087' '#1073#1110#1083#1077#1090#1091
+        Color = clWhite
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 11
+      end
+      object QRLabel7: TQRLabel
+        Left = 320
+        Top = 8
+        Width = 49
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          846.666666666666600000
+          21.166666666666670000
+          129.645833333333300000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Caption = #1052#1110#1089#1094#1077
+        Color = clWhite
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 11
+      end
+      object QRLabel8: TQRLabel
+        Left = 376
+        Top = 8
+        Width = 131
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          994.833333333333400000
+          21.166666666666670000
+          346.604166666666700000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Caption = #1063#1072#1089' '#1074#1110#1076#1087#1088#1072#1074#1083#1077#1085#1085#1103
+        Color = clWhite
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 11
+      end
+      object QRLabel9: TQRLabel
+        Left = 512
+        Top = 8
+        Width = 98
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          1354.666666666667000000
+          21.166666666666670000
+          259.291666666666700000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Caption = #1063#1072#1089' '#1087#1088#1080#1073#1091#1090#1090#1103
+        Color = clWhite
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 11
+      end
+      object QRLabel10: TQRLabel
+        Left = 616
+        Top = 8
+        Width = 38
+        Height = 21
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          55.562500000000000000
+          1629.833333333333000000
+          21.166666666666670000
+          100.541666666666700000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Caption = #1050#1083#1072#1089
+        Color = clWhite
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 11
+      end
+      object QRLabel11: TQRLabel
+        Left = 680
+        Top = 8
+        Width = 34
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          1799.166666666667000000
+          21.166666666666670000
+          89.958333333333340000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Caption = #1062#1110#1085#1072
+        Color = clWhite
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 11
+      end
+      object QRShape1: TQRShape
+        Left = 0
+        Top = 24
+        Width = 720
+        Height = 12
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          31.750000000000000000
+          0.000000000000000000
+          63.500000000000000000
+          1905.000000000000000000)
+        Pen.Color = clSkyBlue
+        Pen.Width = 2
+        Shape = qrsHorLine
+      end
+      object QRShape5: TQRShape
+        Left = 104
+        Top = 0
+        Width = 9
+        Height = 42
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          111.125000000000000000
+          275.166666666666700000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape6: TQRShape
+        Left = 0
+        Top = 24
+        Width = 720
+        Height = 12
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          31.750000000000000000
+          0.000000000000000000
+          63.500000000000000000
+          1905.000000000000000000)
+        Pen.Color = clSkyBlue
+        Pen.Width = 2
+        Shape = qrsHorLine
+      end
+      object QRShape7: TQRShape
+        Left = 608
+        Top = 0
+        Width = 9
+        Height = 42
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          111.125000000000000000
+          1608.666666666667000000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape8: TQRShape
+        Left = 232
+        Top = 0
+        Width = 9
+        Height = 42
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          111.125000000000000000
+          613.833333333333400000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape9: TQRShape
+        Left = 312
+        Top = 0
+        Width = 9
+        Height = 42
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          111.125000000000000000
+          825.500000000000100000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape10: TQRShape
+        Left = 368
+        Top = 0
+        Width = 9
+        Height = 42
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          111.125000000000000000
+          973.666666666666900000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape11: TQRShape
+        Left = 504
+        Top = 0
+        Width = 9
+        Height = 42
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          111.125000000000000000
+          1333.500000000000000000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape12: TQRShape
+        Left = 672
+        Top = 0
+        Width = 9
+        Height = 42
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          111.125000000000000000
+          1778.000000000000000000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+    end
+    object DetailBand1: TQRBand
+      Left = 38
+      Top = 118
+      Width = 718
+      Height = 51
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      AlignToBottom = False
+      Color = clWhite
+      ForceNewColumn = False
+      ForceNewPage = False
+      Size.Values = (
+        134.937500000000000000
+        1899.708333333333000000)
+      BandType = rbDetail
+      object QRDBText1: TQRDBText
+        Left = 0
+        Top = 15
+        Width = 19
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          0.000000000000000000
+          39.687500000000000000
+          50.270833333333330000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Color = clWhite
+        DataSet = DataModule2.qryReis
+        DataField = #1055#1030#1041
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 9
+      end
+      object QRDBText2: TQRDBText
+        Left = 112
+        Top = 15
+        Width = 36
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          296.333333333333400000
+          39.687500000000000000
+          95.250000000000000000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Color = clWhite
+        DataSet = DataModule2.qryReis
+        DataField = #1053#1072#1079#1074#1072
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 9
+      end
+      object QRDBText3: TQRDBText
+        Left = 240
+        Top = 15
+        Width = 59
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          635.000000000000000000
+          39.687500000000000000
+          156.104166666666700000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Color = clWhite
+        DataSet = DataModule2.qryReis
+        DataField = #1090#1080#1087' '#1073#1110#1083#1077#1090#1091
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 9
+      end
+      object QRDBText4: TQRDBText
+        Left = 320
+        Top = 15
+        Width = 39
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          846.666666666666600000
+          39.687500000000000000
+          103.187500000000000000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Color = clWhite
+        DataSet = DataModule2.qryReis
+        DataField = #1084#1110#1089#1094#1077
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 9
+      end
+      object QRDBText5: TQRDBText
+        Left = 384
+        Top = 15
+        Width = 105
+        Height = 21
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          55.562500000000000000
+          1016.000000000000000000
+          39.687500000000000000
+          277.812500000000000000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Color = clWhite
+        DataSet = DataModule2.qryReis
+        DataField = #1063#1072#1089' '#1074#1110#1076#1087#1088#1072#1074#1083#1077#1085#1085#1103
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 9
+      end
+      object QRDBText6: TQRDBText
+        Left = 520
+        Top = 15
+        Width = 78
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          1375.833333333333000000
+          39.687500000000000000
+          206.375000000000000000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Color = clWhite
+        DataSet = DataModule2.qryReis
+        DataField = #1063#1072#1089' '#1087#1088#1080#1073#1091#1090#1090#1103
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 9
+      end
+      object QRDBText7: TQRDBText
+        Left = 616
+        Top = 15
+        Width = 30
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          1629.833333333333000000
+          39.687500000000000000
+          79.375000000000000000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Color = clWhite
+        DataSet = DataModule2.qryReis
+        DataField = #1050#1083#1072#1089
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 9
+      end
+      object QRDBText8: TQRDBText
+        Left = 680
+        Top = 15
+        Width = 27
+        Height = 25
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          66.145833333333340000
+          1799.166666666667000000
+          39.687500000000000000
+          71.437500000000000000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Color = clWhite
+        DataSet = DataModule2.qryReis
+        DataField = #1094#1110#1085#1072
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 9
+      end
+      object QRShape2: TQRShape
+        Left = 0
+        Top = 40
+        Width = 720
+        Height = 12
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          31.750000000000000000
+          0.000000000000000000
+          105.833333333333300000
+          1905.000000000000000000)
+        Pen.Color = clSkyBlue
+        Pen.Width = 2
+        Shape = qrsHorLine
+      end
+      object QRShape3: TQRShape
+        Left = 0
+        Top = 0
+        Width = 720
+        Height = 12
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          31.750000000000000000
+          0.000000000000000000
+          0.000000000000000000
+          1905.000000000000000000)
+        Pen.Color = clSkyBlue
+        Pen.Width = 2
+        Shape = qrsHorLine
+      end
+      object QRShape13: TQRShape
+        Left = 104
+        Top = 0
+        Width = 9
+        Height = 48
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          127.000000000000000000
+          275.166666666666700000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape14: TQRShape
+        Left = 232
+        Top = 0
+        Width = 9
+        Height = 48
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          127.000000000000000000
+          613.833333333333400000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape15: TQRShape
+        Left = 312
+        Top = 0
+        Width = 9
+        Height = 48
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          127.000000000000000000
+          825.500000000000100000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape16: TQRShape
+        Left = 368
+        Top = 0
+        Width = 9
+        Height = 48
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          127.000000000000000000
+          973.666666666666900000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape17: TQRShape
+        Left = 504
+        Top = 0
+        Width = 9
+        Height = 48
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          127.000000000000000000
+          1333.500000000000000000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape18: TQRShape
+        Left = 608
+        Top = 0
+        Width = 9
+        Height = 48
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          127.000000000000000000
+          1608.666666666667000000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+      object QRShape19: TQRShape
+        Left = 672
+        Top = 0
+        Width = 9
+        Height = 48
+        Frame.Color = clSkyBlue
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          127.000000000000000000
+          1778.000000000000000000
+          0.000000000000000000
+          23.812500000000000000)
+        Pen.Color = clSkyBlue
+        Shape = qrsVertLine
+      end
+    end
+    object SummaryBand1: TQRBand
+      Left = 38
+      Top = 169
+      Width = 718
+      Height = 40
+      Frame.Color = clBlack
+      Frame.DrawTop = False
+      Frame.DrawBottom = False
+      Frame.DrawLeft = False
+      Frame.DrawRight = False
+      AlignToBottom = False
+      Color = clWhite
+      ForceNewColumn = False
+      ForceNewPage = False
+      Size.Values = (
+        105.833333333333300000
+        1899.708333333333000000)
+      BandType = rbSummary
+      object QRLabel4: TQRLabel
+        Left = 0
+        Top = 16
+        Width = 71
+        Height = 21
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          55.562500000000000000
+          0.000000000000000000
+          42.333333333333340000
+          187.854166666666700000)
+        Alignment = taLeftJustify
+        AlignToBand = False
+        AutoSize = True
+        AutoStretch = False
+        Caption = 'QRLabel4'
+        Color = clWhite
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -15
+        Font.Name = 'Century Gothic'
+        Font.Style = []
+        ParentFont = False
+        Transparent = False
+        WordWrap = True
+        FontSize = 11
+      end
+      object QRShape4: TQRShape
+        Left = 0
+        Top = 0
+        Width = 720
+        Height = 12
+        Frame.Color = clBlack
+        Frame.DrawTop = False
+        Frame.DrawBottom = False
+        Frame.DrawLeft = False
+        Frame.DrawRight = False
+        Size.Values = (
+          31.750000000000000000
+          0.000000000000000000
+          0.000000000000000000
+          1905.000000000000000000)
+        Pen.Color = clSkyBlue
+        Pen.Width = 2
+        Shape = qrsHorLine
+      end
+    end
+  end
+end
